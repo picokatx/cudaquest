@@ -1,0 +1,23 @@
+ninja_required_version = 1.3
+cxx = cl
+
+cflags = /nologo /O2 /W3 /GL /DNDEBUG /MD /MD /wd4819 /wd4251 /wd4244 /wd4267 /wd4275 /wd4018 /wd4190 /wd4624 /wd4067 /wd4068 /EHsc -IC:\Users\picokatx\Documents\cudaquest\.venv\Lib\site-packages\torch\include -IC:\Users\picokatx\Documents\cudaquest\.venv\Lib\site-packages\torch\include\torch\csrc\api\include -IC:\Users\picokatx\Documents\cudaquest\.venv\Lib\site-packages\torch\include\TH -IC:\Users\picokatx\Documents\cudaquest\.venv\Lib\site-packages\torch\include\THC -IC:\Users\picokatx\Documents\cudaquest\.venv\include -IC:\Users\picokatx\AppData\Local\Programs\Python\Python311\include -IC:\Users\picokatx\AppData\Local\Programs\Python\Python311\Include "-IC:\Program Files\Microsoft Visual Studio\2022\VC\Tools\MSVC\14.38.33130\include" "-IC:\Program Files\Microsoft Visual Studio\2022\VC\Tools\MSVC\14.38.33130\ATLMFC\include" "-IC:\Program Files\Microsoft Visual Studio\2022\VC\Auxiliary\VS\include" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"
+post_cflags = -DTORCH_API_INCLUDE_EXTENSION_H -DTORCH_EXTENSION_NAME=lltm_cpp -D_GLIBCXX_USE_CXX11_ABI=0 /std:c++17
+cuda_dlink_post_cflags = 
+ldflags = 
+
+rule compile
+  command = cl /showIncludes $cflags -c $in /Fo$out $post_cflags
+  deps = msvc
+
+
+
+
+
+build C$:\Users\picokatx\Documents\cudaquest\build\temp.win-amd64-cpython-311\Release\lltm.obj: compile C$:\Users\picokatx\Documents\cudaquest\lltm.cpp
+
+
+
+
+
+

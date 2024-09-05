@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@lezer/java": "^1.1.2",
+    "@lezer/javascript": "^1.4.17",
+    "@lezer/rust": "^1.0.2",
+    "@lezer/yaml": "^1.0.3",
+    "three": "^0.167.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.167.1"
+  }
+}

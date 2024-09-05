@@ -1,0 +1,11 @@
+Model Information:
+* title:	PCB NVIDIA RTX 4090 Graphic Card
+* source:	https://sketchfab.com/3d-models/pcb-nvidia-rtx-4090-graphic-card-0eeef36c440f44f586501532dd61bba0
+* author:	damongraphics (https://sketchfab.com/damongraphics)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "PCB NVIDIA RTX 4090 Graphic Card" (https://sketchfab.com/3d-models/pcb-nvidia-rtx-4090-graphic-card-0eeef36c440f44f586501532dd61bba0) by damongraphics (https://sketchfab.com/damongraphics) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
